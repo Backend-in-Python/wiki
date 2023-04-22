@@ -2,6 +2,11 @@ site_name: Backend in Python Wiki
 
 nav:
     - О чате: index.md
+    - Статьи:
+        - Идемпотентность: articles/idempotency.md
+        - django: articles/django.md
+
+
 
 
 
@@ -12,16 +17,16 @@ theme:
     # Palette toggle for light mode
   features:
     - content.code.annotate
-    # - content.tabs.link
+    - content.tabs.link
     - content.tooltips
-    # - header.autohide
-    # - navigation.expand
+    - header.autohide
+    - navigation.expand
     - navigation.indexes
-    # - navigation.instant
-    # - navigation.prune
+    - navigation.instant
+    - navigation.prune
     - navigation.sections
     - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
